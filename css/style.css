@@ -6,8 +6,8 @@
 
 .container {
   position: relative;
-  width: 1200px;
-  height: 700px;
+  width: 1000px;
+  margin: auto;
   text-align: center;
 }
 
@@ -19,6 +19,7 @@
 
 .img {
   position: relative;
+  width: 300px;
 }
 
 .discount {
