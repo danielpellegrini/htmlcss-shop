@@ -31,3 +31,11 @@
 .content:nth-child(3n+2) .discount {
   background-color: orange;
 }
+
+.heart {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  color: red;
+  font-size: 20px;
+}
