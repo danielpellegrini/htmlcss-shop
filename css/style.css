@@ -1,20 +1,33 @@
 * {
+  box-sizing: border-box;
   margin: 0 auto;
+  padding: 0;
 }
 
 .container {
   position: relative;
   width: 1200px;
   height: 700px;
-  border: 2px solid blue;
+  text-align: center;
 }
 
 .content {
-  padding: 10px;
-  position: absolute;
+  position: relative;
+  padding: 20px 0;
+  display: inline-block;
 }
 
 .img {
-  height: 80%;
-  width: 80%;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  right: 0;
+  background: lightgreen;
+  padding: 2px;
+}
+
+.content:nth-child(3n+2) .discount {
+  background-color: orange;
 }
